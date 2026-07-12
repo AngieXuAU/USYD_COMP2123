@@ -1,0 +1,7 @@
+Unit Recommended Readings:
+Algorithm Design and Applications (Goodrich, Tamassia) - https://ebookcentral.proquest.com/lib/usyd/detail.action?docID=5106295&pq-origsite=primo
+Algorithms (Erickson) - https://jeffe.cs.illinois.edu/teaching/algorithms/
+Algorithms Illuminated (Roughgarden) - https://www.algorithmsilluminated.org/
+
+Other:
+C++ Data Structures and Algorithm Design Principles (Carey, Achary, Doshi Doshi) https://ebookcentral.proquest.com/lib/usyd/detail.action?pq-origsite=primo&docID=5970668
