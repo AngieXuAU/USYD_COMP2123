@@ -1,0 +1,32 @@
+Self-taught topic coverage:
+
+Algomonster
+- Binary search
+- Two pointers
+- Depth first search
+- Backtracking
+- Breadth first search
+- Graph
+- Priority Queue/ Heap
+- Dynamic programming
+- Advanced DS
+
+Course Outline
+Week 02	1. Abstract data structures; 2. Stacks and queues		  
+Week 03	1. Tree concepts and definitions; 2. Recursion on a tree; 3. Binary tree implementation, general tree implementation	
+Week 04	1. Binary search trees; 2. Balanced binary search tree (AVL tree)	
+Week 05	1. Simple map implementation by list (sorted and unsorted); 2. Priority queues, heap-as-a-tree and heap-in-array, sorting using priority queue	
+Week 06	Hashing		  
+Week 07	1. Graph representations; 2. Graph traversals	
+Week 08	1. Shortest path algorithm; 2. Minimum weight spanning tree algorithms		  
+Week 09	Greedy method		  
+Week 10	Divide-and-conquer		  
+Week 11	Divide-and-conquer		  
+Week 12	Randomised algorithms (or other advanced topic)	  
+
+Goal Timeline:
+- by 26/07: Algomonster: Binary search, Two pointers, Priority Queue/Heap + Quick look at Stacks & Queues (Week 2)
+- by 02/08: Algomonster: DFS, BFS, Backtracking + Tree concepts & recursion (Week 3)
+- by 09/08 (end of Week 1, first lecture 05/08): Algomonster: Graphs, Dynamic programming, Advanced DS (Finishes Algomonster)
+- by 16/08 (Week 2): Course Pre-study: Binary Search Trees & AVL Trees (Week 4), Simple maps & Hashing (Week 5/6)
+- by 23/08 (Week 3): Course Pre-study: Shortest path & MST (Week 8), Greedy (Week 9) -> [EFT (early feedback task) this week]
