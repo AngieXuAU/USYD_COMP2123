@@ -27,7 +27,7 @@ Node *n2 = new Node(2, n4, n5);
 Node *n1 = new Node(1, n2, n3);
 Node *target = n11;
 
-void *dfs(Node *node, bool b) {
+void dfs(Node *node, bool b) {
     if (b == true) {
         cout << node->val;
     }
