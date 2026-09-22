@@ -1,0 +1,24 @@
+
+1. a. Describe the algorithm in plain English.
+
+Use a stack as the primary data structure, and separately track two integer variables, all starting at 0:
+(1) Index 
+(2) Max Depth
+
+Loop through the input, storing the event ("open" or "close") and the event identifier (k).
+
+For each input, once you read it in, add 1 to the index.
+If the event is "open", push the value k onto the stack. Then, check if the size of the stack (which represents the current depth) exceeds the maximum depth and if it does, set the maximum depth to the current size. Then move onto the next item in the loop.
+
+If the event isn't "open", ie. the event is "close" (assuming no inputs other inputs), first check whether the stack is empty. If the stack is empty, this means you are trying to close something that doesn't exist, which means the input is invalid. Return "invalid", followed by the index.
+If the stack isn't empty, check if the top of the stack is the same as the element you are trying to close. If they match, pop the top element and move onto the next pass of the loop.
+If the top of the stack doesn't match, this means you are trying to close something that isn't the most recently opened component, so it is invalid. Return invalid, followed by the index.
+
+After the loop has concluded, all elements that were opened should have been closed, leaving the stack empty. Check if the stack is indeed empty - if not, not all elements have been appropriately popped, so return "incomplete". Otherwise, the everything in the input was valid so return valid followed by the maximum depth.
+
+b. 
+The invariant in this algorithm is that the stack always holds a valid sequence of components in the order they should be closed - with the top being the one that should be most recently closed and the bottom being the one that should be closed last. With each pass in the loop, the algorithm first checks if this invariant is broken in any way: trying to close a component other than the top component or trying to close on an empty stack. If it is broken, it returns "invalid" along with the event number that broke this invariant. If the loop finishes without the invariant being broken, that means every stage of the input is valid, and it consequently returns the maximum depth the stack has ever reached. If, when the algorithm finishes, the stack is not empty, that means the input is incomplete, and the algorithm returns that value.
+
+c. Analyse the worst case running time and additional space used by the algorithm.
+The algorithm loops through the entirety of the input, which is O(n). In each pass, it does a set number of checks (e.g. stack.isEmpty(), stack.top() == k) and uses the stack operations push and pop, which are both O(1). Hence, each pass of the algorithm is O(1). Thus, the overall worst case time complexity is O(n).
+The worst case space complexity would be if all n events in the input were "open", finishing with an n-sized stack of identifiers. The additional variables max_depth and index both represent constant additions and O(n+1) = O(n) so the overall worst case additional-space complexity is O(n).

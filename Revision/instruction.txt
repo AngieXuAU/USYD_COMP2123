@@ -1,0 +1,36 @@
+The exam will contain three questions for a total of 30 marks.
+
+Question 1: True or False, 10 marks        (roughly 10 minutes)
+
+There will be 10 True or False questions, worth 1 mark each. You have to shade a box. If you made a mistake, then you can shade the correct option and indicate which one to consider by writing 'T' or 'F'.
+
+These questions will test understanding of concepts from across Weeks 1 to 7. They may ask about data structures, algorithms, running times, or properties discussed in lectures and tutorials.
+
+These questions are intended to test conceptual understanding rather than lengthy calculations.
+
+Question 2: Short answer questions, 8 marks         (roughly 10-15 minutes)
+
+This question will contain four short problems involving the data structures and algorithms covered in Weeks 1 to 7.
+
+The style will be similar to exercises where a data structure or algorithm is given and the task is to work through a small example. For example, a question might ask for the state of a data structure after some operations, the result of running an algorithm, a small computation involving a structure or something similar.
+
+Answers to these parts should generally be short. There will not be a need to write a full algorithm design and correctness proof for every part.
+
+Question 3: Algorithm and data structure design, 12 marks         (roughly 20-30 minutes)
+
+This is the main problem-solving question and will require a more substantial answer.
+
+For preparation for this question, place particular emphasis on Weeks 3 to 7, together with the algorithm analysis and correctness techniques introduced earlier in the unit. This question will be similar to the ones you have seen in Assignment 1.
+
+The question may require designing or modifying a data structure or algorithm to satisfy particular running time and space requirements.
+
+A complete answer may need to include:
+
+A clear description of the algorithm or data structure.
+
+An explanation of how any additional information is maintained.
+
+Running time and space analysis.
+
+A correctness argument.
+
