@@ -1,2 +1,10 @@
 *.exe
 .vscode/
+
+# USYD resources
+Assignments/
+Notes/Summary_Notes/*.pdf
+Question_Bank/Solutions
+Question_Bank/*.pdf
+
+*.txt
